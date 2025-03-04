@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
   }
   
@@ -83,16 +84,21 @@
   }
   
   footer {
-    padding: 5px 0px 5px 0px;
+    margin-top: 30px;
+    padding: 5px;
     text-align: center;
     background-color: black;
     color: greenyellow;
+    border-radius: 5px;
+    
   }
 
   footer a {
     text-decoration: none;
     color: greenyellow;
     font-weight: bolder;
+    transition: .4s;
+    
   }
 
   footer a:hover {
