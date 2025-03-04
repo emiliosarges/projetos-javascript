@@ -82,3 +82,19 @@
     text-align: center;
   }
   
+  footer {
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background-color: black;
+    color: greenyellow;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bolder;
+  }
+
+  footer a:hover {
+    color: green;
+  }
