@@ -1,4 +1,4 @@
-const quotes = [
+/* const quotes = [
     { 
         quote: "Programação é 1% inspiração e 99% depuração.", 
         author: "Desconhecido" 
@@ -151,7 +151,127 @@ const quotes = [
         quote: "Quanto mais você mexe, mais funciona. Exceto em TI.", 
         author: "Desconhecido" 
     }
+]; */
+
+const quotes = [
+    { 
+        quote: "Programação é 1% inspiração e 99% depuração.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Se funciona, não toque.", 
+        author: "Lei da TI" 
+    },
+    { 
+        quote: "Java é como um casamento: começa bonito, mas depois você percebe que tem muitas regras.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Python é como mágica, até você precisar otimizar o código.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "C é como dirigir um carro sem cintos de segurança: emocionante, mas perigoso.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "PHP é como aquele ex que você não quer ver, mas sempre aparece em algum projeto antigo.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "JavaScript: onde 1 + '1' é '11' e ninguém questiona.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Se depuração é o processo de remover erros, então programação deve ser o processo de colocá-los.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "SQL me ensinou que 'não encontrado' e 'erro' são basicamente a mesma coisa.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Ruby on Rails: porque reinventar a roda não é suficiente, precisamos do trem inteiro.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Se você acha que o seu código está perfeito, tente rodá-lo em um ambiente de produção.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Usar Regex é como fazer feitiçaria: quando funciona, ninguém sabe como.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "C++: porque às vezes, você quer um ponteiro para o inferno.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "COBOL ainda existe? Sim, e provavelmente rodando o seu banco.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "O erro clássico: esquecer um ponto e vírgula e criar um loop infinito de frustração.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Haskell: quando você quer sentir que está programando em um outro universo.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "JavaScript: onde 'undefined' não é um erro, mas um estilo de vida.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Se funciona, não questione. Se não funciona, culpe o estagiário.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Git é aquele amigo que sempre guarda suas coisas, mas nunca lembra onde.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "O maior pesadelo de um programador? Merge conflict na sexta-feira.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "CSS é como mágica negra: você mexe em uma linha e tudo quebra.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Stack Overflow: o verdadeiro autor de 90% dos códigos.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Programação funcional: porque loops são para os fracos.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Assembly: para aqueles que acham que a vida está muito fácil.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Se seu código está rodando na primeira tentativa, verifique se abriu o arquivo certo.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Enquanto houver um usuário, haverá um bug.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Escrever código ruim é fácil. Escrever código bom que ninguém mais entende é um talento.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Programadores não cometem erros. Eles apenas desenvolvem funcionalidades inesperadas.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Não tenha medo de deletar código. Ele sempre pode ser copiado do Stack Overflow novamente.", 
+        author: "Desconhecido" 
+    }
 ];
+
 
 
 const quoteBtn = document.querySelector("#quoteBtn");
