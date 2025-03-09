@@ -269,6 +269,26 @@ const quotes = [
     { 
         quote: "Não tenha medo de deletar código. Ele sempre pode ser copiado do Stack Overflow novamente.", 
         author: "Desconhecido" 
+    },
+    { 
+        quote: "Inteligência Artificial ainda não substitui programadores, mas já consegue gerar código que ninguém entende.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Debugging é como ser um detetive em um crime que você mesmo cometeu.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "A única coisa pior do que um bug, é um bug intermitente.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "A diferença entre um programador júnior e um sênior? O sênior já quebrou tudo antes.", 
+        author: "Desconhecido" 
+    },
+    { 
+        quote: "Em teoria, teoria e prática são a mesma coisa. Na prática, não são.", 
+        author: "Desconhecido" 
     }
 ];
 
